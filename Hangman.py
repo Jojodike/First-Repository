@@ -47,6 +47,6 @@ def hangman():
     if lives == 0:
         print('Sorry, gotta hang you. The word was', word)
     else:
-        print('You guessd right, the word is', word, '!')
+        print('You guessed right, the word is', word, '!')
     
 hangman()
